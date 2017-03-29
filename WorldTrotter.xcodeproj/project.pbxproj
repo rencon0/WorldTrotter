@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4D3F7CF51E8AC77800564D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7CF41E8AC77800564D61 /* AppDelegate.swift */; };
-		4D3F7CF71E8AC77800564D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7CF61E8AC77800564D61 /* ViewController.swift */; };
 		4D3F7CFA1E8AC77800564D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F7CF81E8AC77800564D61 /* Main.storyboard */; };
 		4D3F7CFC1E8AC77800564D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F7CFB1E8AC77800564D61 /* Assets.xcassets */; };
 		4D3F7CFF1E8AC77800564D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3F7CFD1E8AC77800564D61 /* LaunchScreen.storyboard */; };
 		4D3F7D0A1E8AC77800564D61 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7D091E8AC77800564D61 /* WorldTrotterTests.swift */; };
 		4D3F7D151E8AC77800564D61 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7D141E8AC77800564D61 /* WorldTrotterUITests.swift */; };
+		4D3F7D231E8B809B00564D61 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7D221E8B809B00564D61 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		4D3F7CF11E8AC77800564D61 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3F7CF41E8AC77800564D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D3F7CF61E8AC77800564D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D3F7CF91E8AC77800564D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D3F7CFB1E8AC77800564D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D3F7CFE1E8AC77800564D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		4D3F7D101E8AC77800564D61 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3F7D141E8AC77800564D61 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		4D3F7D161E8AC77800564D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3F7D221E8B809B00564D61 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				4D3F7CF41E8AC77800564D61 /* AppDelegate.swift */,
-				4D3F7CF61E8AC77800564D61 /* ViewController.swift */,
 				4D3F7CF81E8AC77800564D61 /* Main.storyboard */,
 				4D3F7CFB1E8AC77800564D61 /* Assets.xcassets */,
 				4D3F7CFD1E8AC77800564D61 /* LaunchScreen.storyboard */,
 				4D3F7D001E8AC77800564D61 /* Info.plist */,
+				4D3F7D221E8B809B00564D61 /* ConversionViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3F7CF71E8AC77800564D61 /* ViewController.swift in Sources */,
+				4D3F7D231E8B809B00564D61 /* ConversionViewController.swift in Sources */,
 				4D3F7CF51E8AC77800564D61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
