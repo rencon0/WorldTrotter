@@ -55,6 +55,7 @@ class ConversionViewController: UIViewController, UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("ConversionViewController loaded its view")
         updateCelsiusLabel()
     }
     
@@ -68,14 +69,6 @@ class ConversionViewController: UIViewController, UITextFieldDelegate{
     }
     
     @IBAction func fahrenheitFieldEditingChanged(_ textField: UITextField){
-        //celsiusLabel.text = textField.text
-        
-        //if let text = textField.text, !text.isEmpty {
-        //    celsiusLabel.text = text
-        //}else {
-         //   celsiusLabel.text = "???"
-        //}
-        
         if let text = textField.text, let value = Double(text){
             fahrenheitValue = Measurement(value: value, unit: .fahrenheit)
         }else{
@@ -86,4 +79,18 @@ class ConversionViewController: UIViewController, UITextFieldDelegate{
     @IBAction func dismissKeyBoard(_ sender: UITapGestureRecognizer){
         textField.resignFirstResponder()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.view.backgroundColor = getRandomColor()
+    }
+    
+    func getRandomColor() -> UIColor{
+        //Generate between 0 to 1
+        let red:CGFloat = CGFloat(drand48())
+        let green:CGFloat = CGFloat(drand48())
+        let blue:CGFloat = CGFloat(drand48())
+        
+        return UIColor(red:red, green: green, blue: blue, alpha: 1.0)
+    }
+
 }
