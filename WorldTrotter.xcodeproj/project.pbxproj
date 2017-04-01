@@ -14,6 +14,7 @@
 		4D3F7D0A1E8AC77800564D61 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7D091E8AC77800564D61 /* WorldTrotterTests.swift */; };
 		4D3F7D151E8AC77800564D61 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7D141E8AC77800564D61 /* WorldTrotterUITests.swift */; };
 		4D3F7D231E8B809B00564D61 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7D221E8B809B00564D61 /* ConversionViewController.swift */; };
+		4D3F7D291E90196600564D61 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F7D281E90196600564D61 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4D3F7D141E8AC77800564D61 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		4D3F7D161E8AC77800564D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3F7D221E8B809B00564D61 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		4D3F7D281E90196600564D61 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3F7D291E90196600564D61 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				4D3F7D081E8AC77800564D61 /* WorldTrotterTests */,
 				4D3F7D131E8AC77800564D61 /* WorldTrotterUITests */,
 				4D3F7CF21E8AC77800564D61 /* Products */,
+				4D3F7D271E90196600564D61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				4D3F7D161E8AC77800564D61 /* Info.plist */,
 			);
 			path = WorldTrotterUITests;
+			sourceTree = "<group>";
+		};
+		4D3F7D271E90196600564D61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3F7D281E90196600564D61 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +517,7 @@
 				4D3F7D1B1E8AC77800564D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D3F7D1C1E8AC77800564D61 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				4D3F7D1E1E8AC77800564D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D3F7D1F1E8AC77800564D61 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				4D3F7D211E8AC77800564D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
